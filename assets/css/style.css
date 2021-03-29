@@ -467,7 +467,13 @@ bottom: 5%;;
     padding:33px 48px;
     border-radius: 16px;
     box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.1);
-    background-color: white;;
+    background-color: white;
+    transition: all .2s;;
+}
+.certificateBox:hover{
+    box-shadow: 20px 30px 50px rgba(0, 0, 0, 0.15);
+    transition: all .2s;;
+
 }
 .educationBox .dots{
     z-index: -1;
@@ -763,25 +769,55 @@ footer p{
         padding:150px 0;
    
     }
-    .workBox{
-        margin-bottom:20px;
-        height:auto
-    }
-    .workBox h4{
-        margin-top:70px;
-    }
-    .heroSection .subscribeBox{
-        margin-top:20px;
-    }
+.skillsBox{
+    padding:20px 0;
+}
+.skills .sectionTitle h4{
+    max-width: 100%;;
+}
+.nav-pills{
+    overflow: auto;
+    height: auto;
+
+}
+.nav-pillsCont{
+    height:auto;
+}
+.nav-pills .nav-item .nav-link{
+    padding:10px 5px;
+}
+.edeucationDetails{
+    margin-right:10px;
+    width:90%;
+}
+.certificateBox{
+    padding:10px;
+}
+.educationIcon{
+    width:20px;
+    height:20px;
+    padding:5px;
+    border-radius: 5px;
+    padding: 8px;
+    margin-top: 9px;
+}
+.circle{
+    width:5px;
+    height:5px;
+}
+.Blog{
+    padding:50px 0;
+}
+.contactText{
+    margin-top:20px;
+    padding:10px;
+}
 .sectionTitle{
     margin-bottom:50px;
 }
-
-    .socialIcons{
-        text-align: right;
-        margin-top:20px;
-        margin-bottom:20px;
-    }
+.socialSection{
+    margin-top:20px;
+}
 
     button.navbar-toggler {
         position: relative;
@@ -815,34 +851,53 @@ footer p{
     .contactUs{
         padding:20px 0;
     }
-.nav-pills .nav-item{
-width:auto;
-}
+    .nav-pills .nav-item{
+        width:auto;
+        height: auto;
+        }
+
 .nav-pills .nav-item .nav-link{
     margin:0;
-    height: 100%;;
+    height: auto;
 }
-.portfoilo,.team,.counter{
+.portfoilo{
     padding:50px 0
 }
     .counterBox{
         margin-bottom:20px;
     }
-    .tallImg,.shortImg{
-        height: auto;
-    }
-    .galleryItem img{
-        height: auto;
-    }
-    .nav-pills{
-        height:36px;
-    }
+
     .contactForm{
         padding:20px;
     }
-    .contactForm .mainBtn{
-        width:100%
-    }
+    .socialIcons.socialContact li {
+        width: 80px;
+        height: 80px;
+        margin-left: 11px;}
+        .socialIcons.socialContact{
+            text-align: center;
+        }
+        .socialIcons.socialContact li a{
+            font-size:25px;
+        }
+        .socialIcons.socialContact li  i{
+            line-height: 80px;
+        }
+        .galleryItem{
+            height: auto;
+        }
+        .galleryItem  img{
+            height: auto;
+            width:100%;
+        }
+        .specialWorkImg{height: auto;
+        }   .specialWorkImg img{
+    height: auto;
+    width:100%;
+}
+.socialIcons .dots{
+    display: none;
+}
 }
 @media(min-width:768px) and (max-width:1023px){
     body{
